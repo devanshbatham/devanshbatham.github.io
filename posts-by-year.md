@@ -1,5 +1,5 @@
 ---
 layout: archive-years
-title: Posts
+title: $(cat posts.md)
 permalink: /posts-by-year/
 ---
