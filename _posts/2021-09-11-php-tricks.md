@@ -229,3 +229,8 @@ pcntl_exec();
 
 
 That's all for now, Have a good day, stay hydrated :)
+
+Contact
+=======
+
+[@0xAsm0d3us](https://twitter.com/0xAsm0d3us)
