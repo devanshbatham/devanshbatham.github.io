@@ -8,8 +8,6 @@ author:
   - Devansh Batham
 ---
 
-# PHP Tricks in Web CTF Challenges 
-
 
 ![](https://cdn-images-1.medium.com/max/1166/0*OHr-8NUQfLrpykeh)
 
