@@ -12,7 +12,7 @@ author:
 Long Story Short
 ================
 
-I have been using favicon.ico hashes for finding new assets/IP addresses and technologies owned by a company from a long time now. Recently I realized an increase in trend of this fairly small and simple trick on twitter, below are some screenshots :
+I have been using favicon.ico hashes for finding new assets/IP addresses and technologies owned by a company from a long time now. Recently I realized an increase in trend of this fairly small and simple trick on twitter, below are some screenshots:
 
 ![](https://miro.medium.com/max/1050/1*HRkCruuYe_RprRROlvTRoQ.png)
 
@@ -127,7 +127,8 @@ $ cat fingerprints.json
    "blah-blah" : "Potential XYZ instance",  
    .. .. .. .. ..   
    .. .. .. .. ..   
-   and so on} 
+   and so on
+} 
 ```
 
 If any favicon hash matches with any of the fingerprints present in fingerprints.json , then I store those matched hashes in a different file and I hunt for already known issues on those webapps(For ex : Testing for /env , /heapdump , /logfile in Spring Boot applications if any of the hash matches with my Spring Boot Fingerprint).
