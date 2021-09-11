@@ -61,7 +61,7 @@ I am using [**Certstream**](https://certstream.calidog.io/) for live CT log feed
 CertEagle
 =========
 
-![](https://miro.medium.com/max/1400/1\*KW9GvjiTH5m50-XST7kltw.png)
+![](https://miro.medium.com/max/1400/1*KW9GvjiTH5m50-XST7kltw.png)
 
 
 Along with this Blog post I am releasing this tool called “[CertEagle](https://github.com/devanshbatham/CertEagle)” as well , Lets take a walkthrough on how to setup and use this.
@@ -83,7 +83,7 @@ Enabling Slack Notifications :
 Edit `config.yaml` file and paste your slack webhook URL there , It should look something like this:
 
 
-![](https://miro.medium.com/max/1400/1\*HFJ8GZDEYp3UC8PFmgZ\_fQ.png)
+![](https://miro.medium.com/max/1400/1*HFJ8GZDEYp3UC8PFmgZ_fQ.png)
 
 Keywords and domains to match :
 -------------------------------
@@ -94,7 +94,7 @@ You can specify keywords and domains to match in `domains.yaml` file , You can s
 
 
 
-![](https://miro.medium.com/max/552/1\*0\_xnuGHrApTNwylGnQRIog.png)
+![](https://miro.medium.com/max/552/1*0_xnuGHrApTNwylGnQRIog.png)
 
 
 Lets take `.facebook.com` as example , domains extracted from Real time CT logs will be matched against the word `.facebook.com` , if matched they will be logged in our output file (found-domains.log) . The thing to note here is , It will give some false positives like `test.facebook.com.test.com` , `example.facebook.company` but we can filter out them later on by using use regex magic
@@ -105,7 +105,7 @@ For Matching domains/subdomains with specific keywords
 Lets assume that you want to monitor and log domains/subdomains that are having word “hackerone” in them, then our domains.yaml file will look something like this
 
 
-![](https://miro.medium.com/max/1400/1\*XTZ1Fu5WWr83H7wd19IJGg.png)
+![](https://miro.medium.com/max/1400/1*XTZ1Fu5WWr83H7wd19IJGg.png)
 
 Now all the extracted domains/subdomains that are having word `hackerone` in them will be matched and logged (and a slack notification will be sent to you for the same)
 
@@ -114,17 +114,17 @@ Okay we are done with our initial setup , Lets run our tool
 `$ python3 certeagle.py`
 
 
-![](https://miro.medium.com/max/1400/1\*cmbquQ9TjkvmfOpltIyzWg.png)
+![](https://miro.medium.com/max/1400/1*cmbquQ9TjkvmfOpltIyzWg.png)
 
 **Matched domains will look like this :**
 
 
-![](https://miro.medium.com/max/1400/1\*nX9ukwaeiJQYb6v3TjMTgw.png)
+![](https://miro.medium.com/max/1400/1*nX9ukwaeiJQYb6v3TjMTgw.png)
 
 
 **Slack Notifications will look like this :**
 
-![](https://miro.medium.com/max/1028/1\*6wvhP2uLycoiJ6MNaln-yQ.png)
+![](https://miro.medium.com/max/1028/1*6wvhP2uLycoiJ6MNaln-yQ.png)
 
 
 **Note:** You will not get notifications for duplicate domains/subdomains , [CertEagle](https://github.com/devanshbatham/CertEagle) logs all the matched domains and if those domains will occur more than once in the real time CT logs then the notification about those domains will be sent only once.
@@ -133,7 +133,7 @@ Okay we are done with our initial setup , Lets run our tool
 
 The program will keep on running all the matched domains will be saved under output directory in found-domains.log file
 
-![](https://miro.medium.com/max/1400/1\*pKxtz\_Do0X2mnBRT7jYdqA.png)
+![](https://miro.medium.com/max/1400/1*pKxtz_Do0X2mnBRT7jYdqA.png)
 
 
 
