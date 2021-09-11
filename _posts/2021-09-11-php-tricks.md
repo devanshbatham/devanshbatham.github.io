@@ -1,6 +1,6 @@
 ---
 layout: post
-toc: true
+toc: false
 title: "PHP Tricks in Web CTF challenges"
 categories: ["CTFs"]
 tags: [ctf, web-security, php-security]
