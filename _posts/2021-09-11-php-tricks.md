@@ -11,7 +11,7 @@ author:
 
 ![](https://cdn-images-1.medium.com/max/1166/0*OHr-8NUQfLrpykeh)
 
-**Kon’nichiwa Folks**.I spent lot a time playing **CTFs** in last few years(2019), especially Web Challenges. I find them very fascinating as the thrill you get after capturing the flags cannot be described in words , That **adrenaline rush** is heaven for me. For me **CTFs** are the best way to practice,improve and test your hacking skills.
+**Kon’nichiwa Folks**. I spent lot a time playing **CTFs** in last few years(2019), especially Web Challenges. I find them very fascinating as the thrill you get after capturing the flags cannot be described in words , That **adrenaline rush** is heaven for me. For me **CTFs** are the best way to practice,improve and test your hacking skills.
 
 In this article I will be covering walkthroughs of some common/easy PHP based Web Challenges I solved during various CTFs and some simple tricks. This post is intended for absolute beginners.
 
