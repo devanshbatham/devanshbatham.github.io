@@ -25,11 +25,8 @@ devanshBatham := struct {
 }
 {
     Name: "Devansh Batham",
-
     Nationality: "Indian",
-
     Age: "20+",
-
     Skills: []string{
         "Problem Solving",
         "Web Security",
@@ -43,12 +40,10 @@ devanshBatham := struct {
         "CTFs", 
         "Cooking",
     },
-
     Languages: []string{
         "English", 
         "Hindi",
     },
-
     Hobbies: []string{
         "Cycling", 
         "Cricket", 
