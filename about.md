@@ -31,7 +31,9 @@ devanshBatham := struct {
     Age: "20+",
 
     Skills: []string{
-        "Problem Solving", 
+        "Problem Solving",
+        "Web Security",
+        "OSINT", 
         "Hacking", 
         "Bughunting", 
         "Programming", 
