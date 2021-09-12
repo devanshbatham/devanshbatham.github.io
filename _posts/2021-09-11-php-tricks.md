@@ -180,7 +180,7 @@ It is not possible for two non-equal entities to have same SHA1 hash, also it is
 **Exploit :**
 
 ```
-http://vulnerable/?name[]=x&password[]=y
+https://vulnerable/?name[]=x&password[]=y
 ```
 
 Make sure that the values of name and password are different (x and y) , as the second if (that checks if the values are equal or not) is still getting executed.
