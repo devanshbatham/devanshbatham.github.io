@@ -2,7 +2,7 @@
 layout: post
 toc: false
 title: "Genesis: A Series on Blockchain Security"
-categories: ["Blockchain Security"]
+categories: ["Blockchain-Security"]
 tags: ["blockchain-security"]
 author:
   - Devansh Batham
