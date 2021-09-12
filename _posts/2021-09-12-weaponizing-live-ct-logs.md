@@ -9,7 +9,7 @@ author:
 ---
 
 
-My previous blog post [“Weaponizing favicon.ico for BugBounties , OSINT and what not”](https://medium.com/@Asm0d3us/weaponizing-favicon-ico-for-bugbounties-osint-and-what-not-ace3c214e139) got quite a nice response(The tool “[FavFeak](https://github.com/devanshbatham/FavFreak) made into TBHM recon edition by Jason Haddix too YAY).
+My previous blog post [“Weaponizing favicon.ico for BugBounties , OSINT and what not”](https://devanshbatham.github.io/osint/2021/09/11/weaponizing-favicon-ico.html) got quite a nice response(The tool “[FavFeak](https://github.com/devanshbatham/FavFreak) made into TBHM recon edition by Jason Haddix too YAY).
 
 ![](https://miro.medium.com/max/1400/1*k0YnMpGLSqRUyI-Qa4WUGQ.png)
 
@@ -138,6 +138,13 @@ The program will keep on running all the matched domains will be saved under out
 
 
 **CertEagle can be found here :** [CertEagle Github](https://github.com/devanshbatham/CertEagle)
+
+
+## __Want to support my work?__
+If you think my work has added some value to your existing knowledge, then you can [Buy me a Coffee here](https://www.buymeacoffee.com/Asm0d3us) (and who doesn't loves a good cup of coffee?')
+
+![](https://img.buymeacoffee.com/api/?url=aHR0cHM6Ly9jZG4uYnV5bWVhY29mZmVlLmNvbS91cGxvYWRzL3Byb2ZpbGVfcGljdHVyZXMvMjAyMS8wOS8wMGU4ZGJjODc0NzI0MmRjYTJmNGJkMmMzMzQ1ODUzZC5wbmdAMzAwd18wZS53ZWJw&creator=Asm0d3us&is_creating=creating%20educational%20cybersecurity%20related%20content.&design_code=1&design_color=%235F7FFF&slug=Asm0d3us)
+
 
 Contact
 =======
