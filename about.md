@@ -12,6 +12,8 @@ In this personal space (blog) of mine, I try to pen down my thoughts on the pres
 
 
 ```javascript
+$ cat about.go
+
 devanshBatham := struct {
     Name string
     Nationality string
@@ -21,25 +23,38 @@ devanshBatham := struct {
     Technologies []string
     Hobbies []string
 }
-
 {
     Name: "Devansh Batham",
-   
+
     Nationality: "Indian",
-   
+
     Age: "20+",
 
     Skills: []string{
-        "Problem Solving", "Hacking", "Bughunting", "Programming", "Competitive Coding", "Machine Learning", "Artificial Intelligence", "CTFs", "Cooking",
+        "Problem Solving", 
+        "Hacking", 
+        "Bughunting", 
+        "Programming", 
+        "Competitive Coding", 
+        "Machine Learning", 
+        "Artificial Intelligence", 
+        "CTFs", 
+        "Cooking",
     },
 
     Languages: []string{
-        "English", "Hindi",
+        "English", 
+        "Hindi",
     },
 
     Hobbies: []string{
-        "Cycling", "Cricket", "Pokemon cards", "Watching Anime",
-        "Mixing/Mastering Lofi beats", "Books", "Electronics",
+        "Cycling", 
+        "Cricket", 
+        "Pokemon cards", 
+        "Watching Anime",
+        "Mixing/Mastering Lofi beats", 
+        "Books", 
+        "Electronics",
     },
 }
 ```
