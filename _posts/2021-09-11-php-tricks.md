@@ -15,7 +15,7 @@ author:
 
 In this article I will be covering walkthroughs of some common/easy PHP based Web Challenges I solved during various CTFs and some simple tricks. This post is intended for absolute beginners.
 
-# 1- A Casual Warmup
+# `1- A Casual Warmup`
 
 ![](https://cdn-images-1.medium.com/max/2070/1*lqddvGiVtqzhdbwvFxKWPA.png)
 
@@ -98,7 +98,7 @@ https://asm0d3us-ctf.herokuapp.com/Challenge1/index.php?anime_is_bae=hellohellot
 
 Okay now , The above challenge was just a basic one , Now lets discuss some issues with php.
 
-# 2- Type Juggling
+# `2- Type Juggling`
 
 **PHP is easy** until you come across the variable types and context in which the variable is used.
 
@@ -157,7 +157,7 @@ md4 hash  :  0e434041524824285414215559233446
 
 ![win win](https://cdn-images-1.medium.com/max/2272/1*HFpxGZI5jdfhw_6b-wSeRw.png)
 
-# 3- Controlling the types of variables
+# `3- Controlling the types of variables`
 
 Lets try to get the flag here
 
@@ -189,7 +189,7 @@ Make sure that the values of name and password are different (x and y) , as the 
 
 Figure out how you can get the flag , **DM me the answer**: [here](https://twitter.com/0xAsm0d3us)
 
-# 4- Regex Bypass using Null Bytes in ereg(Deprecated Now)
+# `4- Regex Bypass using Null Bytes in ereg(Deprecated Now)`
 
 ereg() searches a `string` for matches to the regular expression given in `pattern` in a case-sensitive way. (This function was _DEPRECATED_ in PHP 5.3.0, and _REMOVED_ in PHP 7.0.0.) .So whenever you see ereg being used in a php CTF challenge then something is fishy
 
@@ -205,7 +205,7 @@ In the above example , the regex could be bypassed using Null Byte(%00)
 
 Reference : [https://bugs.php.net/bug.php?id=44366](https://bugs.php.net/bug.php?id=44366) (not a bug tho )
 
-# 5- Code Execution
+# `5- Code Execution`
 
 Below are some php functions that can be used to achieve a direct code execution.
 
@@ -230,7 +230,7 @@ pcntl_exec();
 
 That's all for now, Have a good day, stay hydrated :)
 
-## __Want to support my work?__
+## **`Want to support my work?`**
 If you think my work has added some value to your existing knowledge, then you can [Buy me a Coffee here](https://www.buymeacoffee.com/Asm0d3us) (and who doesn't loves a good cup of coffee?')
 
 
