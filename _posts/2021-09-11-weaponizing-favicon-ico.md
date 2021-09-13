@@ -187,6 +187,15 @@ Be creative and add your own fingerprint favicon hashes!
 
 FavFreak can be found here : [https://github.com/devanshbatham/FavFreak](https://github.com/devanshbatham/FavFreak)
 
+## `Newsletter`
+Subscribe to our Newsletter to get future articles/updates/blockchain-related news directly in your mailbox.
+
+<iframe
+scrolling="no"
+style="width:100%!important;height:220px;border:1px #ccc solid !important"
+src="https://buttondown.email/genesis?as_embed=true"
+></iframe>
+
 ## __`Want to support my work?`__
 If you think my work has added some value to your existing knowledge, then you can [Buy me a Coffee here](https://www.buymeacoffee.com/Asm0d3us) (and who doesn't loves a good cup of coffee?')
 
