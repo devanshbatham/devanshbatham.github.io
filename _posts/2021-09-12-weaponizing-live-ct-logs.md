@@ -139,6 +139,14 @@ The program will keep on running all the matched domains will be saved under out
 
 **CertEagle can be found here :** [CertEagle Github](https://github.com/devanshbatham/CertEagle)
 
+## `Newsletter`
+Subscribe to our Newsletter to get future articles/updates/blockchain-related news directly in your mailbox.
+
+<iframe
+scrolling="no"
+style="width:100%!important;height:220px;border:1px #ccc solid !important"
+src="https://buttondown.email/genesis?as_embed=true"
+></iframe>
 
 ## **`Want to support my work?`**
 If you think my work has added some value to your existing knowledge, then you can [Buy me a Coffee here](https://www.buymeacoffee.com/Asm0d3us) (and who doesn't loves a good cup of coffee?')
