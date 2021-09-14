@@ -30,48 +30,48 @@ This article will be laying down a path/roadmap for us, following which we will 
 
 # `✔️The only Roadmap you need`
 
-**Note:** This Roadmap is not exhaustive, but it is organized and covers all rudimentary topics that one needs to know in order to get into the field of Blockchain Security. It also acts as a guide to our future articles in `Genesis Series`.
+This Roadmap is not exhaustive, but it is organized and covers all rudimentary topics that one needs to know in order to get into the field of Blockchain Security. It also acts as a guide to our future articles in `Genesis Series`.
 
-
+**Note:** 
   - [ ] **Elementary Topics:**
-    - [ ] [Familiarity with Linux OS.]()
-    - [ ]  [Understanding of commonly used `bash` commands.]()
-    - [ ]  [Understanding of version control systems such as `Git` ,`Github`, `Gitlab` , etc.]()
-    - [ ]  [What is `CI/CD` pipeline.]()
-    - [ ]  [JavaScript.]()
-    - [ ]  [Python.]()
-    - [ ]  [Good understanding of Object Oriented programming.]()
-    - [ ]  [Familiarity with Package Managers (`npm`, `yarn`, `pnpm`, `pip`).]()
+    - [ ] [Familiarity with Linux OS.](https://www.redhat.com/en/topics/linux/what-is-linux)
+    - [ ]  [Understanding of commonly used `bash` commands.](https://cheatography.com/davechild/cheat-sheets/linux-command-line/)
+    - [ ]  [Understanding of version control systems such as `Git` ,`Github`, `Gitlab` , etc.](https://www.atlassian.com/git/tutorials)
+    - [ ]  [What is `CI/CD` pipeline.](https://www.redhat.com/en/topics/devops/what-is-ci-cd)
+    - [ ]  [JavaScript.](https://javascript.info/)
+    - [ ]  [Python.](https://ehmatthes.github.io/pcc/index.html)
+    - [ ]  [Good understanding of Object Oriented programming.](https://www.educative.io/blog/object-oriented-programming#:~:text=Object%20Oriented%20programming%20(OOP)%20is,create%20individual%20instances%20of%20objects.)
+    - [ ]  [Familiarity with Package Managers (`npm`, `yarn`, `pnpm`, `pip`).](https://blog.idrsolutions.com/2018/07/what-is-a-package-manager-and-why-should-you-use-one/)
 
 - [ ]  **Basics of Internet:**
-    - [ ]  [Good understanding of Networking concepts.]()
-    - [ ]  [How a Web Browser works.]()
-    - [ ]  [What is **DNS** (What happens behind the scenes when you type `google.com` in web browser).]()
-    - [ ]  [What is `HTTP` Protocol and how it works.]()
-    - [ ]  [What are `HTTP` Request and Response headers.]()
-    - [ ]  [What is `RPC` Protocol.]()
-    - [ ]  [Familiarity with Browser's developer tools.]()
-    - [ ]  [`Web2.0` (how a typical `Web2.0` application is packaged and deployed).]()
+    - [ ]  [Good understanding of Networking concepts.](https://www.dummies.com/programming/networking/cisco-networking-all-in-one-for-dummies-cheat-sheet/)
+    - [ ]  [How a Web Browser works.](https://www.mozilla.org/en-US/firefox/browsers/what-is-a-browser/)
+    - [ ]  [What is **DNS** (What happens behind the scenes when you type `google.com` in web browser).](https://github.com/alex/what-happens-when)
+    - [ ]  [What is `HTTP` Protocol and how it works.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+    - [ ]  [What are `HTTP` Request and Response headers.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+    - [ ]  [What is `RPC` Protocol.](https://www.guru99.com/remote-procedure-call-rpc.html)
+    - [ ]  [Familiarity with Browser's developer tools.](https://www.shortcutfoo.com/app/dojos/chrome-dev-tools-win/cheatsheet)
+    - [ ]  [`Web2.0` (how a typical `Web2.0` application is packaged and deployed).](https://en.wikipedia.org/wiki/Web_2.0)
     - [ ]  **Existing Authentication/Authorization models in `Web2.0` applications.**
-        - [ ]  SSO — Single Sign On
-        - [ ]  OAuth — Open Authorization
-        - [ ]  JWT Authentication
-        - [ ]  Token Based Authentication
-        - [ ]  Session Based Authentication
-        - [ ]  Basic Authentication
-    - [ ]  What is HTTP Caching.
+        - [ ]  [SSO — Single Sign On](https://www.onelogin.com/learn/how-single-sign-on-works)
+        - [ ]  [OAuth — Open Authorization](https://www.csoonline.com/article/3216404/what-is-oauth-how-the-open-authorization-framework-works.html)
+        - [ ]  [JWT Authentication](https://www.youtube.com/watch?v=7Q17ubqLfaM)
+        - [ ]  [Token Based Authentication](https://www.okta.com/identity-101/what-is-token-based-authentication/)
+        - [ ]  [Session Based Authentication](https://sherryhsu.medium.com/session-vs-token-based-authentication-11a6c5ac45e4)
+        - [ ]  [Basic Authentication](https://www.ibm.com/docs/en/cics-ts/5.2?topic=concepts-http-basic-authentication)
+    - [ ]  [What is HTTP Caching.](https://www.cloudflare.com/en-in/learning/cdn/what-is-caching/)
 - [ ]  `Web 2.0` **Security:**
     - [ ]  **OWASP Top 10:**
-        - [ ]  Broken Access Control vulnerabilities.
-        - [ ]  Cryptographic Failures.
-        - [ ]  Injection vulnerabilities.
-        - [ ]  Insecure Design.
-        - [ ]  Security Misconfigurations.
-        - [ ]  Vulnerable and Outdated Components.
-        - [ ]  Identification and Authentication Failures.
-        - [ ]  Software and Data Integrity Failures.
-        - [ ]  Security Logging and Monitoring Failures.
-        - [ ]  Server-Side Request Forgery.
+        - [ ]  [Broken Access Control vulnerabilities.]()
+        - [ ]  [Cryptographic Failures.]()
+        - [ ]  [Injection vulnerabilities.]()
+        - [ ]  [Insecure Design.]()
+        - [ ]  [Security Misconfigurations.]()
+        - [ ]  [Vulnerable and Outdated Components.]()
+        - [ ]  [Identification and Authentication Failures.]()
+        - [ ]  [Software and Data Integrity Failures.]()
+        - [ ]  [Security Logging and Monitoring Failures.]()
+        - [ ]  [Server-Side Request Forgery.]()
 - [ ]  **Basics of Blockchain:**
     - [ ]  [What is Asymmetric Cryptography.]()
     - [ ]  [What is Elliptic Curve Cryptography.]()
