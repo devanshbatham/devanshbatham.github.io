@@ -14,7 +14,7 @@ Blockchains are trending, we hear about them almost everyday, and whenever we se
 
 If you were able to successfully complete this exercise, congratulations 🎉. But If you still don't understand, that's fine as well and I am sure you are not alone, let me introduce you to the phenomenon of **The Curse of Knowledge** and why most of those tutorials and articles felt super complicated.
 
-When better-informed people find it extremely difficult to think about problems from the perspective of less well-informed people, and those well-informed people subconsciously assume that you will be able to think about things the same way they do, which in the majority of cases does not hold true, as a result, articles and tutorials they produce are complicated and relatively complex for absolute beginners. 
+When better-informed people find it extremely difficult to think about problems from the perspective of less well-informed people, and those well-informed people subconsciously assume that you will be able to think about things the same way they do, which in majority of the cases does not hold true, as a result, articles and tutorials they produce are complicated and relatively complex for absolute beginners. 
 
 With this series of articles, I am trying to lower that complexity and I am sure that by the end of this article you will have a pretty decent idea about what a blockchain is.
 
@@ -38,7 +38,7 @@ A blockchain is like a digital ledger used to hold transactions, transactions th
 
 # `But why do we need a blockchain?`
 
-Blockchain solves various problems, and I dont want to overwhelm you with all of its applications, however, for the sake of simplicity let's understand the most common problem that blockchain solves.
+Blockchain solves various problems, and I dont want to overwhelm you with all of its applications, however, for the sake of simplicity let's understand the most common problem that blockchain solves in digital financial world.
 
 Let's imagine you have a candy store, and someone walks into your store with only **$1** in hand, one candy costs **$1**. He buys one candy with that **$1**, and then he buys another candy with the same **$1**, he used **$1** to buy 2 candies. This is the classic **double-spending** problem, while this appears to be physically impossible as the store owner can easily verify the fraudulent transactions in real-time, but with digital currency, it is very much possible.
 
@@ -54,7 +54,7 @@ Let's go through [the brief history of blockchain](https://www.icaew.com/technic
 - **1998** - Computer scientist **Nick Szabo** introduced **Bit Gold**.
 
 
-- **2000** - **Stefan** Konst publishes his theory of cryptographic secured chains, along with ideas of implementation.
+- **2000** - **Stefan Konst**publishes his theory of cryptographic secured chains, along with ideas of implementation.
 
 - **2008** - Developer or group of developers working under the pseudonym **Satoshi Nakamoto** released a white paper establishing the model for a blockchain.
 

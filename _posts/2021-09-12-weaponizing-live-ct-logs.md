@@ -15,17 +15,15 @@ My previous blog post [“Weaponizing favicon.ico for BugBounties , OSINT and wh
 
 and hence I decided to write blog posts more often and Hey see here is another blog post , grab a cup of coffee , sit tight and enjoy the blog post !
 
-`Long Story Short`
-================
+# Long Story Short
 
 In Bugbounties “**If you are not first , then you are last**” there is no such thing as silver or a bronze medal , Recon plays a very crucial part and if you can detect/Identify a newly added asset earlier than others then the chances of you Finding/Reporting a security flaw on that asset and getting rewarded for the same are higher than others.
 
 Umm Makes sense ? Its all about leveling up your game
 
-Lets dive into a bit technical stuff. Shall we ?
+Lets dive into a bit technical stuff. Shall we?
 
-SSL Certificates and CT logs`
-============================
+# SSL Certificates and CT logs
 
 **SSL Certificates** bind together :
 
@@ -36,16 +34,13 @@ SSL Certificates and CT logs`
 
 More about CT logs can be found here : [https://www.certificate-transparency.org/what-is-ct](https://www.certificate-transparency.org/what-is-ct)
 
-`Inspiration`
-===========
+# Inspiration
 
-Personally I am monitoring CT logs for domains/subdomains for quite a long time now and it gave me a lot of successful results , The inspiration behind this was “[Sublert : By yassineaboukir](https://github.com/yassineaboukir/sublert/)” which checks crt.sh for subdomains and can be executed periodically , However I am using somewhat different approach and instead of looking into crt.sh periodically, I am extracting domains from Live CT log feeds , So chances of me finding a new asset earlier is higher as compared to others.
+Personally I am monitoring CT logs for domains/subdomains for quite a long time now and it gave me a lot of successful results , The inspiration behind this was [Sublert : By yassineaboukir](https://github.com/yassineaboukir/sublert/) which checks crt.sh for subdomains and can be executed periodically , However I am using somewhat different approach and instead of looking into crt.sh periodically, I am extracting domains from Live CT log feeds , So chances of me finding a new asset earlier is higher as compared to others.
 
-`Building the required tooling`
-=============================
+# Building the required tooling
 
-`Desired workflow:`
-------------------
+## Desired workflow:
 
 *   Monitoring Real Time CT log feed and extracting the domain names from that feed
 *   Matching the extracted subdomains/domains against the domains/Keywords to be matched
@@ -58,16 +53,14 @@ I am using [**Certstream**](https://certstream.calidog.io/) for live CT log feed
 ![](https://miro.medium.com/max/1050/1*W0r0myvHtTmHGu2kc9kEDQ.png)
 
 
-`CertEagle`
-=========
+# CertEagle
 
 ![](https://miro.medium.com/max/1400/1*KW9GvjiTH5m50-XST7kltw.png)
 
 
 Along with this Blog post I am releasing this tool called “[CertEagle](https://github.com/devanshbatham/CertEagle)” as well , Lets take a walkthrough on how to setup and use this.
 
-`Requirements:`
---------------
+# Requirements:
 
 *   A VPS (UNIX up and running)
 *   Python 3x (Tested with Python 3.6.9)
@@ -77,7 +70,7 @@ I am assuming that you have already done with your setup of slack workspace .
 
 Now Create a channel named “subdomain-monitor” and set up a incoming webhook
 
-`Enabling Slack Notifications:`
+## Enabling Slack Notifications:
 ------------------------------
 
 Edit `config.yaml` file and paste your slack webhook URL there , It should look something like this:
@@ -85,7 +78,7 @@ Edit `config.yaml` file and paste your slack webhook URL there , It should look 
 
 ![](https://miro.medium.com/max/1400/1*HFJ8GZDEYp3UC8PFmgZ_fQ.png)
 
-`Keywords and domains to match:`
+## Keywords and domains to match:
 -------------------------------
 
 You can specify keywords and domains to match in `domains.yaml` file , You can specify names
@@ -99,7 +92,7 @@ You can specify keywords and domains to match in `domains.yaml` file , You can s
 
 Lets take `.facebook.com` as example , domains extracted from Real time CT logs will be matched against the word `.facebook.com` , if matched they will be logged in our output file (found-domains.log) . The thing to note here is , It will give some false positives like `test.facebook.com.test.com` , `example.facebook.company` but we can filter out them later on by using use regex magic
 
-`For Matching domains/subdomains with specific keywords`
+## For Matching domains/subdomains with specific keywords
 --------------------------------------------------------
 
 Lets assume that you want to monitor and log domains/subdomains that are having word “hackerone” in them, then our domains.yaml file will look something like this
@@ -139,7 +132,13 @@ The program will keep on running all the matched domains will be saved under out
 
 **CertEagle can be found here :** [CertEagle Github](https://github.com/devanshbatham/CertEagle)
 
-## `Newsletter`
+
+# **Want to support my work?**
+If you think my work has added some value to your existing knowledge, then you can [Buy me a Coffee here](https://www.buymeacoffee.com/Asm0d3us) (and who doesn't loves a good cup of coffee?)
+
+[![name](https://img.buymeacoffee.com/api/?url=aHR0cHM6Ly9jZG4uYnV5bWVhY29mZmVlLmNvbS91cGxvYWRzL3Byb2ZpbGVfcGljdHVyZXMvMjAyMS8wOS8wMGU4ZGJjODc0NzI0MmRjYTJmNGJkMmMzMzQ1ODUzZC5wbmdAMzAwd18wZS53ZWJw&creator=Asm0d3us&is_creating=creating%20educational%20cybersecurity%20related%20content.&design_code=1&design_color=%235F7FFF&slug=Asm0d3us)](https://www.buymeacoffee.com/Asm0d3us)
+
+# Newsletter
 Subscribe to our Newsletter to get future articles/updates/blockchain-related news directly in your mailbox.
 
 <iframe
@@ -148,7 +147,4 @@ style="width:100%!important;height:220px;border:1px #ccc solid !important"
 src="https://buttondown.email/genesis?as_embed=true"
 ></iframe>
 
-## **`Want to support my work?`**
-If you think my work has added some value to your existing knowledge, then you can [Buy me a Coffee here](https://www.buymeacoffee.com/Asm0d3us) (and who doesn't loves a good cup of coffee?')
 
-[![name](https://img.buymeacoffee.com/api/?url=aHR0cHM6Ly9jZG4uYnV5bWVhY29mZmVlLmNvbS91cGxvYWRzL3Byb2ZpbGVfcGljdHVyZXMvMjAyMS8wOS8wMGU4ZGJjODc0NzI0MmRjYTJmNGJkMmMzMzQ1ODUzZC5wbmdAMzAwd18wZS53ZWJw&creator=Asm0d3us&is_creating=creating%20educational%20cybersecurity%20related%20content.&design_code=1&design_color=%235F7FFF&slug=Asm0d3us)](https://www.buymeacoffee.com/Asm0d3us)

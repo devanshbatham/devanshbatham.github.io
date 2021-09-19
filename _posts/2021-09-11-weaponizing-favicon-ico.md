@@ -9,8 +9,7 @@ author:
 ---
 
 
-`Long Story Short`
-================
+# Long Story Short
 
 I have been using favicon.ico hashes for finding new assets/IP addresses and technologies owned by a company from a long time now. Recently I realized an increase in trend of this fairly small and simple trick on twitter, below are some screenshots:
 
@@ -25,7 +24,7 @@ I have been using favicon.ico hashes for finding new assets/IP addresses and tec
 
 So I decided to write a blog on the same , I will try to explain my methodology and how I use fingerprint based detection using favicon hashes and will show the working of `FavFreak` a tool of mine for making your work a hell lot easier. Lets dive into this **“The lesser known art of Recon using Favicon hashes”**
 
-# `Introduction`
+# Introduction
 
 
 **What is favicon.ico**
@@ -39,7 +38,7 @@ Modern Browsers will show you a small image/icon to the left side of the webpage
 
 
 
-# `How to calculate Favicon hashes from favicon.ico`
+# How to calculate Favicon hashes from favicon.ico
 
 
 **Using Python 2**
@@ -81,8 +80,7 @@ Lets calculate the favicon hash for https://medium.com/favicon.ico
 
 I think I have covered enough basics about `favicon.ico` and favicon hashes . Now lets dive into the interesting part.
 
-**`Favicon Hashes + Shodan`**
-===========================
+# Favicon Hashes + Shodan 
 
 You can search for assets/IPs using favicon hashes on shodan using `http.favicon.hash:[Favicon hash here]` filter.
 
@@ -110,8 +108,7 @@ $ shodan search org:"Target" http.favicon.hash:116323821 --fields ip\_str,port -
 
 **Note:** This is just one example, you can use different favicon hashes for different services. Be creative !
 
-My Methodology
-==============
+# My Methodology
 
 <p align="center">
   <img src="https://miro.medium.com/max/1050/1*Qnmfe6bT8RX_FuvgRVconA.png" alt="Sublime's custom image"/>
@@ -133,13 +130,11 @@ $ cat fingerprints.json
 
 If any favicon hash matches with any of the fingerprints present in fingerprints.json , then I store those matched hashes in a different file and I hunt for already known issues on those webapps(For ex : Testing for /env , /heapdump , /logfile in Spring Boot applications if any of the hash matches with my Spring Boot Fingerprint).
 
-`Automating all this`
-===================
+# Automating all this
 
 I have created a tool named **“FavFreak”** that makes my work a hell lot easier, it takes a list of urls (with https or http protocol) from stdin ,then it fetches favicon.ico and calculates its hash value. It sorts the domains/subdomains/IPs according to their favicon hashes and the most interesting part is , It matches calculated favicon hashes with the favicon hashes present in the fingerprint dictionary , If matched then it will show you the results in the output, there is option to generate shodan dorks as well (that is pretty basic and you can do it manually as well)
 
-`Example`
--------
+## Example:
 
 ```
 $ cat urls.txt | python3 favfreak.py -o output
@@ -187,7 +182,12 @@ Be creative and add your own fingerprint favicon hashes!
 
 FavFreak can be found here : [https://github.com/devanshbatham/FavFreak](https://github.com/devanshbatham/FavFreak)
 
-## `Newsletter`
+# **Want to support my work?**
+If you think my work has added some value to your existing knowledge, then you can [Buy me a Coffee here](https://www.buymeacoffee.com/Asm0d3us) (and who doesn't loves a good cup of coffee?)
+
+[![name](https://img.buymeacoffee.com/api/?url=aHR0cHM6Ly9jZG4uYnV5bWVhY29mZmVlLmNvbS91cGxvYWRzL3Byb2ZpbGVfcGljdHVyZXMvMjAyMS8wOS8wMGU4ZGJjODc0NzI0MmRjYTJmNGJkMmMzMzQ1ODUzZC5wbmdAMzAwd18wZS53ZWJw&creator=Asm0d3us&is_creating=creating%20educational%20cybersecurity%20related%20content.&design_code=1&design_color=%235F7FFF&slug=Asm0d3us)](https://www.buymeacoffee.com/Asm0d3us)
+
+# Newsletter
 Subscribe to our Newsletter to get future articles/updates/blockchain-related news directly in your mailbox.
 
 <iframe
@@ -195,8 +195,3 @@ scrolling="no"
 style="width:100%!important;height:220px;border:1px #ccc solid !important"
 src="https://buttondown.email/genesis?as_embed=true"
 ></iframe>
-
-## __`Want to support my work?`__
-If you think my work has added some value to your existing knowledge, then you can [Buy me a Coffee here](https://www.buymeacoffee.com/Asm0d3us) (and who doesn't loves a good cup of coffee?')
-
-[![name](https://img.buymeacoffee.com/api/?url=aHR0cHM6Ly9jZG4uYnV5bWVhY29mZmVlLmNvbS91cGxvYWRzL3Byb2ZpbGVfcGljdHVyZXMvMjAyMS8wOS8wMGU4ZGJjODc0NzI0MmRjYTJmNGJkMmMzMzQ1ODUzZC5wbmdAMzAwd18wZS53ZWJw&creator=Asm0d3us&is_creating=creating%20educational%20cybersecurity%20related%20content.&design_code=1&design_color=%235F7FFF&slug=Asm0d3us)](https://www.buymeacoffee.com/Asm0d3us)
