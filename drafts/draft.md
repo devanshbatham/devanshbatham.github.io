@@ -10,11 +10,11 @@ author:
 
 
 # `Blockchain`
-We keep hearing about blockchains all the time, and whenever we search for it on the internet we are blown away with **buzz** words like decentralized, distributed, time-stamped, etc. but do we really understand them? Let's do a quick exercise, I want you to search **What is Blockchain?** on Google, then after a minute or two, try to explain the definition that you learned from the Google search results to yourself.
+We keep hearing about blockchains all the time, and whenever we search about them on the internet we are blown away with **buzz** words like decentralized, distributed, time-stamped, etc. but do we really understand them? Let's do a quick exercise, I want you to search **What is Blockchain?** on Google, then after a minute or two, try to explain the definition that you learned from the Google search results to yourself.
 
 If you were able to successfully complete this exercise, congratulations 🎉. But If you still don't understand, that's totally fine as well, by the end of this article you will have a pretty decent idea of what a blockchain is.
 
-## `Explain like I'm five`
+# `Explain like I'm five`
 
 A blockchain is like a digital ledger used to hold transactions, transactions that transfer instruments of value (that represent real money). Anyone can add a new transaction to a blockchain, however, the previous transactions cannot be tampered with without everyone noticing. 
 
@@ -28,9 +28,11 @@ Blockchains do not need any central authority for their functioning, as a result
 
 - **Timestamp:** It is a small data stored in each block as a unique serial number which can be used as the **proof for notarization**.
 
+- **Hash Functions:** Hash functions are the backbone of any blockchain, The same data will always produce the same hashed value. Bitcoin's blockchain uses **SHA-256 (Secure Hash Algorithm)** hashing algorithm
+
 - **Immutable** - The use of cryptographic functions makes a Blockchain immutable. Cryptographic functions return a hash value, which cannot be reverse-engineered, as a result, transactions cannot be tampered with without everyone noticing. 
 
-# `But why do we need blockchain?`
+# `But why do we need a blockchain?`
 
 Blockchain solve various problems; one of them is **double-spending** problem. 
 
@@ -40,7 +42,7 @@ Let's imagine you have a candy store, and someone walks into your store with onl
 That's where blockchain can be used to solve this problem, As stated previously, a blockchain uses a distributed ledger to publically record all transactions on the network, which allows anyone to view the entire history of each coin, and prove that no coin was spent twice.
 
 # `History of Blockchain`
-We know blockchain because of bitcoin, yes it is true that blockchain got popular after the release of bitcoin whitepaper, however the concept of blockchain was coined way before that.
+We know blockchain because of bitcoin, yes it is true that blockchain got popular after the release of bitcoin, however the concept of blockchain was coined way before that.
 
 Let's go through [the brief history of blockchain](https://www.icaew.com/technical/technology/blockchain/blockchain-articles/what-is-blockchain/history) and it how evolved over time: 
 
