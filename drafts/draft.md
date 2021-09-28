@@ -87,6 +87,21 @@ For the sake of simplicity, whenever you hear the word **smart contract**, think
 - Autonomous
 
 
+# Types of accounts in  Ethereum
+
+### Ethereum has two account types:
+
+**Externally-owned accounts (EOAs):** They can be controlled by anyone with the private keys.
+
+**Contract Accounts:** They are controlled by code to the network in the form of smart contracts.
+
+It is important to know that both accounts have the ability to receive, hold and send ETH and interact with deployed smart contracts.
+
+Moreover, Transactions between externally-owned accounts can only be ETH/token transfers, while Transactions from an external account to a contract account can trigger code which can execute many different actions, such as transferring tokens or even creating a new contract.
+
+
+# Ethereum Virtual Machine (EVM)
+
 
 # Fast Track Learning
 **Q- What do I mean by the term Ethereum?** 
@@ -129,6 +144,7 @@ Smart contracts are simply programs(self-executing autonomous blocks of code) st
 - [Ethereum Wikipedia](https://en.wikipedia.org/wiki/Ethereum)
 - [Turing Completeness](https://en.wikipedia.org/wiki/Turing_completeness)
 - [Ethereumbook](https://github.com/ethereumbook/ethereumbook)
+- [Ethereum Account Types](https://github.com/ethereum.org/en/developers/docs/accounts/)
 
 That was all from my side in this article; See you very soon in **Genesis 0x04**, Keep warm, stay hydrated and have good day ahead :)
 
