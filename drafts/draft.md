@@ -44,10 +44,47 @@ Ethereum simulates a perfect Turing complete machine, a thing which could never 
 
 In colloquial usage, the terms "Turing-complete" and "Turing-equivalent" are used to mean that any real-world general-purpose computer or computer language can approximately simulate the computational aspects of any other real-world general-purpose computer or computer language.
 
-# Ethereum Development (hard fork)
+# Ethereum Development Stages
+- **Frontier:** The initial stage of Ethereum.
+
+
+- **Ice Age:** A hard fork to introduce an exponential difficulty increase.
+
+
+- **Homestead:** The second stage of Ethereum.
+
+
+- **DAO:** A hard fork that caused Ethereum and Ethereum Classic to split into two competing systems.
+
+
+- **Tangerine Whistle:** A hard fork to change the gas calculation for certain I/O-heavy operations and to clear the accumulated state from a denial-of-service (DoS) attack that exploited the low gas cost of those operations.
+
+
+- **Spurious Dragon:** A hard fork to address more DoS attack vectors.
+
+
+- **Metropolis Byzantium:**  The third stage of Ethereum. 
+
+- **Constantinople / St. Petersburg:** Constantinople was planned to be the second part of Metropolis with similar improvements. A few hours before its activation, a critical bug was discovered. The hard fork was therefore postponed and renamed St. Petersburg.
+
+
+- **Istanbul:** An additional hard fork with the same approach, and naming convention, as for the prior two.
+
+
+- **Muir Glacier:** A hard fork whose sole purpose was to adjust the difficulty again due to the exponential increase introduced by Ice Age.
 
 # Smart Contracts
-Smart Contracts are heart of Ethereum ecosystem. They are simply programs(self-executing autonomous blocks of code) stored on a blockchain that run when certain predetermined conditions are met.
+
+The word **contract** means a set of promises between two or more parties. With that logic, **Smart** contracts should be set of promises but in some kind of digital form, right? Well... The word **contract** has no legal meaning in the context of Ethereum. **Smart Contracts** are simply programs(self-executing autonomous blocks of code) stored on a blockchain.
+
+For the sake of simplicity, whenever you hear the word **smart contract**, think of it as some kind of computer program that gets executed when certain preconditions are met. There is no need to overcomplicate things, keep them simple and you will soon learn a lot about smart contracts when we will be programming them using Solidity and deploying those smart contracts as well.
+
+## Characteristics of a smart contract
+- Immutable
+- Deterministic
+- EVM compatible
+- Self-executing
+- Autonomous
 
 
 
@@ -91,6 +128,7 @@ Smart contracts are simply programs(self-executing autonomous blocks of code) st
 ](https://consensys.net/blog/news/programmable-blockchains-in-context-ethereum-smart-contracts-and-the-world-computer/)
 - [Ethereum Wikipedia](https://en.wikipedia.org/wiki/Ethereum)
 - [Turing Completeness](https://en.wikipedia.org/wiki/Turing_completeness)
+- [Ethereumbook](https://github.com/ethereumbook/ethereumbook)
 
 That was all from my side in this article; See you very soon in **Genesis 0x04**, Keep warm, stay hydrated and have good day ahead :)
 
