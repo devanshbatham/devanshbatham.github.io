@@ -149,14 +149,31 @@ The two most active and maintained languages for smart contract development are:
 
 
 # Further reading
-**Note:** Some of the information mentioned in this article is taken from the below sources, I highly recommend readers to go through these resources/articles thoroughly. 
 
-- [Ethereum, Smart Contracts, and the World Computer
+
+
+- [ ] [Intro to Ethereum](https://ethereum.org/en/developers/docs/intro-to-ethereum/)
+- [ ] [Intro to Ether](https://ethereum.org/en/developers/docs/intro-to-ether/)
+- [ ] [Intro to dapps](https://ethereum.org/en/developers/docs/dapps/)
+- [ ] [Web2 vs Web3](https://ethereum.org/en/developers/docs/web2-vs-web3/)
+- [ ] [Account Types in Ethereum](https://ethereum.org/en/developers/docs/accounts/)
+- [ ] [Transactions](https://ethereum.org/en/developers/docs/transactions/)
+- [ ] [Blocks](https://ethereum.org/en/developers/docs/blocks/)
+- [ ] [Ethereum virtual machine (EVM)](https://ethereum.org/en/developers/docs/evm/)
+- [ ] [Gas](https://ethereum.org/en/developers/docs/gas/)
+- [ ] [Nodes and clients](https://ethereum.org/en/developers/docs/nodes-and-clients/)
+- [ ] [Networks](https://ethereum.org/en/developers/docs/networks/)
+- [ ] [Consensus mechanisms](https://ethereum.org/en/developers/docs/consensus-mechanisms/)
+- [ ] [Smart contracts](https://ethereum.org/en/developers/docs/smart-contracts/)
+- [ ] [Development networks](https://ethereum.org/en/developers/docs/development-networks/)
+- [ ] [Development frameworks for smart contract development](https://ethereum.org/en/developers/docs/frameworks/)
+- [ ] [Ethereum client APIs](https://ethereum.org/en/developers/docs/apis/javascript/)
+- [ ] [Programming languages for smart contract development](https://ethereum.org/en/developers/docs/programming-languages/)
+- [ ] [Ethereum, Smart Contracts, and the World Computer
 ](https://consensys.net/blog/news/programmable-blockchains-in-context-ethereum-smart-contracts-and-the-world-computer/)
-- [Ethereum Wikipedia](https://en.wikipedia.org/wiki/Ethereum)
-- [Turing Completeness](https://en.wikipedia.org/wiki/Turing_completeness)
-- [Ethereumbook](https://github.com/ethereumbook/ethereumbook)
-- [Ethereum Account Types](https://github.com/ethereum.org/en/developers/docs/accounts/)
+- [ ] [Ethereum Wikipedia](https://en.wikipedia.org/wiki/Ethereum)
+- [ ] [Turing Completeness](https://en.wikipedia.org/wiki/Turing_completeness)
+- [ ] [Ethereumbook](https://github.com/ethereumbook/ethereumbook)
 
 That was all from my side in this article; See you very soon in **Genesis 0x04**, Keep warm, stay hydrated and have good day ahead :)
 
