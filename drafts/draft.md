@@ -44,7 +44,7 @@ Ethereum simulates a perfect Turing complete machine, a thing which could never 
 
 In colloquial usage, the terms "Turing-complete" and "Turing-equivalent" are used to mean that any real-world general-purpose computer or computer language can approximately simulate the computational aspects of any other real-world general-purpose computer or computer language.
 
-# Ethereum Development Stages
+# Ethereum's Development Stages
 - **Frontier:** The initial stage of Ethereum.
 
 
@@ -90,7 +90,6 @@ For the sake of simplicity, whenever you hear the word **smart contract**, think
 # Types of accounts in  Ethereum
 
 ### Ethereum has two account types:
-
 **Externally-owned accounts (EOAs):** They can be controlled by anyone with the private keys.
 
 **Contract Accounts:** They are controlled by code to the network in the form of smart contracts.
@@ -101,6 +100,13 @@ Moreover, Transactions between externally-owned accounts can only be ETH/token t
 
 
 # Ethereum Virtual Machine (EVM)
+Directly quoting the definition from [official documentation](https://ethereum.org/en/developers/docs/evm/), which in my opinion is the most appropriate, accurate and easy to understand:
+
+
+> The EVM’s physical instantiation can’t be described in the same way that one might point to a cloud or an ocean wave, but it does exist as one single entity maintained by thousands of connected computers running an Ethereum client.
+
+> The Ethereum protocol itself exists solely for the purpose of keeping the continuous, uninterrupted, and immutable operation of this special state machine; It's the environment in which all Ethereum accounts and smart contracts live. At any given block in the chain, Ethereum has one and only one 'canonical' state, and the EVM is what defines the rules for computing a new valid state from block to block.
+
 
 
 # Fast Track Learning
@@ -134,6 +140,12 @@ Smart contracts are simply programs(self-executing autonomous blocks of code) st
 - Trust and transparency
 - Security
 - No need of intermediaries to handle transactions.
+
+**Q- In which language a smart contract can be written?**
+
+The two most active and maintained languages for smart contract development are:
+- Solidity
+- Vyper
 
 
 # Further reading
