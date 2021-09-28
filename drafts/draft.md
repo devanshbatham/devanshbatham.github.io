@@ -19,9 +19,9 @@ Bitcoin was created solely for storing/sending/receiving digital money in a safe
  **Vitalik Buterin**. Its Development started in **2014**, and the network went live on **30 July 2015**.
 
 
-**Vitalik** wrote a [detailed article](https://vitalik.ca/general/2017/09/14/prehistory.html) in 2017 titles **A Prehistory of the Ethereum Protocol**, following are few excerpts from [that article](https://vitalik.ca/general/2017/09/14/prehistory.html).
+**Vitalik** wrote a [detailed article](https://vitalik.ca/general/2017/09/14/prehistory.html) in 2017 titled **A Prehistory of the Ethereum Protocol**, following are few excerpts from [that article](https://vitalik.ca/general/2017/09/14/prehistory.html). I highly recommend everyone to read that article thoroughly for better understanding of how Ethereum evolved over time.
 
----
+
 > This was the time when the Ethereum protocol was entirely my own creation. From here on, however, new participants started to join the fold. By far the most prominent on the protocol side was Gavin Wood, who reached out to me in an about.me message in December 2013.
 
 -----
@@ -36,12 +36,20 @@ Bitcoin was created solely for storing/sending/receiving digital money in a safe
 
 
 # Ethereum "The World Computer"
-[TODO]
+
+We are already aware that Ethereum enables developers to build and publish smart contracts and distributed applications aka Dapps, in simple terms, it acts as a platform for storing smart contracts, and when certain preconditions are met, the contract gets executed. The real question is, How Ethereum as a platform manages to do so? Lots of nodes participate in this process for getting a few ethers(mining reward) for doing it. These nodes or computers work together and share a common blockchain.
+
+
+Ethereum simulates a perfect Turing complete machine, a thing which could never exist in nature because of the laws of physics, but which can be simulated by a large enough computer network, that's why Ethereum is referred to as **World Computer**.
+
+In colloquial usage, the terms "Turing-complete" and "Turing-equivalent" are used to mean that any real-world general-purpose computer or computer language can approximately simulate the computational aspects of any other real-world general-purpose computer or computer language.
 
 # Ethereum Development (hard fork)
 
 # Smart Contracts
-[TODO]
+Smart Contracts are heart of Ethereum ecosystem. They are simply programs(self-executing autonomous blocks of code) stored on a blockchain that run when certain predetermined conditions are met.
+
+
 
 # Fast Track Learning
 **Q- What do I mean by the term Ethereum?** 
@@ -54,18 +62,35 @@ Well... it can be used to refer to three distinct things:
 
 **Q- Is Ethereum and Ether the same thing?**
 
-**Ethereum** is a decentralized, open-source, programmable blockchain which enables developers to build and publish smart contracts (self-executing/autonomous blocks of code) and distributed applications that can be used without the risks of downtime, fraud, or interference from a third party. **Ether (ETH or Ξ)** is the native cryptocurrency of the platform.
+**Ethereum** is a decentralized, open-source, programmable blockchain which enables developers to build and publish smart contracts (self-executing/autonomous blocks of code) and distributed applications that can be used without the risks of downtime, fraud, or interference from a third party. While **Ether (ETH or Ξ)** is the native cryptocurrency of the platform.
 
 **Q- How Ethereum is different from Bitcoin?**
 
-Bitcoin was too limited in its functionality. In an interview with [Business Insider](https://www.businessinsider.com/vitalik-buterin-created-ethereum-one-of-the-worlds-three-largest-cryptocurrencies-2019-1?r=US&amp;IR=T), he compared it to a pocket calculator that **does one thing well**, whereas he said Ethereum is more like a smartphone with multiple applications you can use.
+Bitcoin was too limited in its functionality. In an interview with [Business Insider](https://www.businessinsider.com/vitalik-buterin-created-ethereum-one-of-the-worlds-three-largest-cryptocurrencies-2019-1?r=US&amp;IR=T), Vitalik compared it to a pocket calculator that **does one thing well**, whereas he said Ethereum is more like a smartphone with multiple applications you can use.
 
 **Q- Is Ethereum Better Than Bitcoin?**
 
 Can you compare a mango with a banana? **No**. In other words, Ethereum has much wider ambitions. It wants to be a decentralized computing platform for creating other decentralized applications, while Bitcoin is digital gold. 
 
+**Q- What are smart contracts?**
+
+Smart contracts are simply programs(self-executing autonomous blocks of code) stored on a blockchain that run when certain predetermined conditions are met.
+
+**Q- What are some benefits of smart contracts?**
+
+- Speed, efficiency and accuracy
+- Trust and transparency
+- Security
+- No need of intermediaries to handle transactions.
 
 
+# Further reading
+**Note:** Some of the information mentioned in this article is taken from the below sources, I highly recommend readers to go through these resources/articles thoroughly. 
+
+- [Ethereum, Smart Contracts, and the World Computer
+](https://consensys.net/blog/news/programmable-blockchains-in-context-ethereum-smart-contracts-and-the-world-computer/)
+- [Ethereum Wikipedia](https://en.wikipedia.org/wiki/Ethereum)
+- [Turing Completeness](https://en.wikipedia.org/wiki/Turing_completeness)
 
 That was all from my side in this article; See you very soon in **Genesis 0x04**, Keep warm, stay hydrated and have good day ahead :)
 
