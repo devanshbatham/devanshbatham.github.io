@@ -37,7 +37,7 @@ Bitcoin was created solely for storing/sending/receiving digital money in a safe
 
 # Ethereum "The World Computer"
 
-We are already aware that Ethereum enables developers to build and publish smart contracts and distributed applications aka Dapps, in simple terms, it acts as a platform for storing smart contracts, and when certain preconditions are met, the contract gets executed. The real question is, How Ethereum as a platform manages to do so? Lots of nodes participate in this process for getting a few ethers(mining reward) for doing it. These nodes or computers work together and share a common blockchain.
+We are already aware that Ethereum enables developers to build and publish smart contracts and distributed applications aka Dapps, in simple terms, it acts as a platform for storing smart contracts, and when certain preconditions are met, the contracts are executed. The real question is, How Ethereum as a platform manages to do so? Lots of nodes participate in this process for getting a few ethers(mining reward) for doing it. These nodes or computers work together and share a common blockchain.
 
 
 Ethereum simulates a perfect Turing complete machine, a thing which could never exist in nature because of the laws of physics, but which can be simulated by a large enough computer network, that's why Ethereum is referred to as **World Computer**.
