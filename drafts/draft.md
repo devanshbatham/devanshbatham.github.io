@@ -36,11 +36,9 @@ Before we proceed further, let's talk about some hacks that I use for learning a
 
 
 
-# Javascript: The Starting Block
+# [Day 1 - Day 5] Javascript: The Starting Block
+
 We all have different levels of experience and familiarity with programming languages. Now that you are here, I assume you are already familiar with basic Javascript syntax and the Object-Oriented paradigm. If you are not, I would suggest you learn JavaScript before starting with Solidity. You don't need to learn A-Z of JavaScript. All you need for getting started is a basic understanding of JS syntax and object-oriented programming.
-
-
-## Javascript Fundamentals
 
 - [ ] [An Introduction to JavaScript](https://javascript.info/intro)
 - [ ] [Manuals and specifications](https://javascript.info/manuals-specifications)
@@ -80,6 +78,13 @@ We all have different levels of experience and familiarity with programming lang
 - [ ] [Promisification](https://javascript.info/promisify)
 - [ ] [Async/Await](https://javascript.info/async-await)
 - [ ] [Generators](https://javascript.info/generators)
+
+
+
+# Day 
+We learned javascript and now we have a fairly decent understanding of object orianted programming as well. What next? Can we start learning solidity now? Yes, we can. 
+
+During your staring days, I would suggest you to use [Remix IDE](https://remix.ethereum.org/) for writing and compiling solidity code. As we get more familiar, we will start using a more robust smart contract development framework (such as Truffle, Dapptools, etc).
 
 
 
