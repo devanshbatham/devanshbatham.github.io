@@ -9,9 +9,13 @@ author:
 ---
 
 
-- Can you master Solidity in 30 days? No, you cannot.
+- Can you master Solidity in 30 days? 
 
-- Can you learn about the basics and get started with the development of real-world projects using Solidity in 30 days? Yes, you sure can, and this article aims to provide you with a roadmap following which you can learn Solidity in a much more efficient way.
+No, you cannot.
+
+- Can you learn about the basics and get started with the development of real-world projects using Solidity in 30 days? 
+
+Yes, you sure can, and this article aims to provide you with a roadmap following which you can learn Solidity in a much more efficient way.
 
 
 # Learning Hacks
