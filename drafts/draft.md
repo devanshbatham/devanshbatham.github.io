@@ -40,6 +40,7 @@ Before we proceed further, let's talk about some hacks that I use for learning a
 
 We all have different levels of experience and familiarity with programming languages. Now that you are here, I assume you are already familiar with basic Javascript syntax and the Object-Oriented paradigm. If you are not, I would suggest you learn JavaScript before starting with Solidity. You don't need to learn A-Z of JavaScript. All you need for getting started is a basic understanding of JS syntax and object-oriented programming.
 
+## JavaScript Fundamentals
 - [ ] [An Introduction to JavaScript](https://javascript.info/intro)
 - [ ] [Manuals and specifications](https://javascript.info/manuals-specifications)
 - [ ] [Code editors](https://javascript.info/code-editors)
