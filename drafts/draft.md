@@ -14,7 +14,7 @@ Can you master Solidity in 30 days? **No, you cannot.**
 Can you learn about the basics and get started with the development of real-world projects using Solidity in 30 days?  **Yes, you sure can**, and this article aims to provide you with a roadmap following which you can learn Solidity in a much more efficient way.
 
 
-# Learning Hacks
+# 💡 Learning Hacks
 
 > "I realized that becoming a master of karate was not about learning 4,000 moves but about doing just a handful of moves 4,000 times."
 — Chet Holmes
@@ -36,7 +36,7 @@ Before we proceed further, let's talk about some hacks that I use for learning a
 
 
 
-# [Day 1 - Day 5] Javascript: The Starting Block
+# 🏷️ [Day 1 - Day 5] Javascript: The Starting Block
 
 We all have different levels of experience and familiarity with programming languages. Now that you are here, I assume you are already familiar with basic Javascript syntax and the Object-Oriented paradigm. If you are not, I would suggest you should learn JavaScript before starting with Solidity. You don't need to learn A-Z of JavaScript. All you need for getting started is a basic understanding of JS syntax and object-oriented programming.
 
@@ -82,13 +82,24 @@ We all have different levels of experience and familiarity with programming lang
 
 
 
-# [Day 5 - Day 10] Getting our hands dirty with Solidity
+# 🏷️ [Day 5] Frameworks
 We learned javascript and now we have a fairly decent understanding of object-oriented programming as well. What next? Can we start learning solidity now? Yes, we can. 
 
-As we are just getting started with Solidity, I would suggest you use [Remix IDE](https://remix.ethereum.org/) for writing and compiling solidity code for now. As we gain more experience and familiarity with Solidity, we will start using a more robust Dapp development framework (such as Truffle, Hardhat, Dapptools, etc) because building a full-fledged decentralized application requires different pieces of technologies and software frameworks include many of those needed features.
+As we are just getting started with Solidity, I would suggest you use [Remix IDE](https://remix.ethereum.org/) for writing and compiling solidity code for now. As we gain more experience and familiarity with Solidity, we will start using a more robust Dapp development framework (such as Truffle, Hardhat, Dapptools, etc) because building a full-fledged decentralized application requires different pieces of technologies, and software frameworks include many of those needed features.
 
-Even though we are not going to use these frameworks as of now, but we need to know what different frameworks are available to build dapps.
+Even though we are not going to use any of these frameworks as of now, but we need to know what different frameworks are available to build dapps.
 
+
+- [ ] [Truffle - A development environment, testing framework, build pipeline, and other tools.](https://www.trufflesuite.com/)
+- [ ] [Hardhat - Ethereum development environment for professionals](https://hardhat.org/)
+- [ ] [Brownie - Python-based development environment and testing framework.](https://eth-brownie.readthedocs.io/en/latest/)
+- [ ] [Embark - A development environment, testing framework, and other tools integrated with Ethereum, IPFS, and Whisper.](https://framework.embarklabs.io/docs/)
+- [ ] [Web3j - A platform for developing blockchain applications on the JVM](https://www.web3labs.com/web3j-sdk)
+- [ ] [OpenZeppelin SDK - The Ultimate Smart Contract Toolkit: A suite of tools to help you develop, compile, upgrade, deploy and interact with smart contracts.](https://openzeppelin.com/sdk/)
+- [ ] [Create Eth App - Create Ethereum-powered apps with one command. Comes with a wide offering of UI frameworks and DeFi templates to choose from.](https://github.com/paulrberg/create-eth-app)
+- [ ] [Scaffold-Eth - Ethers.js + Hardhat + React components and hooks for web3: everything you need to get started building decentralized applications powered by smart contracts.](https://github.com/austintgriffith/scaffold-eth)
+- [ ] [Alchemy - Ethereum Development Platform.](https://www.alchemy.com/)
+- [ ] [Dapptools - A suite of Ethereum focused CLI tools following the Unix design philosophy, favoring composability, configurability and extensibility.](https://dapp.tools/)
 
 
 # 💌 **Want to support my work?**
