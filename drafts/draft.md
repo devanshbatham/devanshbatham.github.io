@@ -82,7 +82,7 @@ We all have different levels of experience and familiarity with programming lang
 
 
 
-# 🏷️ [Day 5] Frameworks
+# 🏷️ [Day 6] Frameworks
 We learned javascript and now we have a fairly decent understanding of object-oriented programming as well. What next? Can we start learning solidity now? Yes, we can. 
 
 As we are just getting started with Solidity, I would suggest you use [Remix IDE](https://remix.ethereum.org/) for writing and compiling solidity code for now. As we gain more experience and familiarity with Solidity, we will start using a more robust Dapp development framework (such as Truffle, Hardhat, Dapptools, etc) because building a full-fledged decentralized application requires different pieces of technologies, and software frameworks include many of those needed features.
@@ -91,21 +91,32 @@ Even though we are not going to use any of these frameworks as of now, but we ne
 
 
 - [ ] [Truffle - A development environment, testing framework, build pipeline, and other tools.](https://www.trufflesuite.com/)
+
 - [ ] [Hardhat - Ethereum development environment for professionals](https://hardhat.org/)
+
 - [ ] [Brownie - Python-based development environment and testing framework.](https://eth-brownie.readthedocs.io/en/latest/)
+
 - [ ] [Embark - A development environment, testing framework, and other tools integrated with Ethereum, IPFS, and Whisper.](https://framework.embarklabs.io/docs/)
+
 - [ ] [Web3j - A platform for developing blockchain applications on the JVM](https://www.web3labs.com/web3j-sdk)
+
 - [ ] [OpenZeppelin SDK - The Ultimate Smart Contract Toolkit: A suite of tools to help you develop, compile, upgrade, deploy and interact with smart contracts.](https://openzeppelin.com/sdk/)
+
 - [ ] [Create Eth App - Create Ethereum-powered apps with one command. Comes with a wide offering of UI frameworks and DeFi templates to choose from.](https://github.com/paulrberg/create-eth-app)
+
 - [ ] [Scaffold-Eth - Ethers.js + Hardhat + React components and hooks for web3: everything you need to get started building decentralized applications powered by smart contracts.](https://github.com/austintgriffith/scaffold-eth)
+
 - [ ] [Alchemy - Ethereum Development Platform.](https://www.alchemy.com/)
+
 - [ ] [Dapptools - A suite of Ethereum focused CLI tools following the Unix design philosophy, favoring composability, configurability and extensibility.](https://dapp.tools/)
 
+
+# 🏷️[Day 7- Day 10] Understanding Solidity
 
 # 💌 **Want to support my work?**
 If you think my work has added some value to your existing knowledge, then you can [Buy me a Coffee here](https://www.buymeacoffee.com/Asm0d3us) (and who doesn't loves a good cup of coffee?)
 
-[![name](https://img.buymeacoffee.com/api/?url=aHR0cHM6Ly9jZG4uYnV5bWVhY29mZmVlLmNvbS91cGxvYWRzL3Byb2ZpbGVfcGljdHVyZXMvMjAyMS8wOS8wMGU4ZGJjODc0NzI0MmRjYTJmNGJkMmMzMzQ1ODUzZC5wbmdAMzAwd18wZS53ZWJw&creator=Asm0d3us&is_creating=creating%20educational%20cybersecurity%20related%20content.&design_code=1&design_color=%235F7FFF&slug=Asm0d3us)](https://www.buymeacoffee.com/Asm0d3us)
+[![name](https://img.buymeacoffee.com/api/?url=aHR0cHM6Ly9jZG4uYnV5bWVhY29mZmVlLmNvbS91cGxvYWRzL3Byb2ZpbGVfcGljdHVyZXMvMjAyMS8wOS8wMGU4ZGJjODc0NzI0MmRjYTJmNGJkMmMzMzQ1ODUzZC5wbmdAMzAwd18wZS53ZWJw&creator=Asm0d3us& is_creating=creating%20educational%20cybersecurity%20related%20content.&design_code=1&design_color=%235F7FFF&slug=Asm0d3us)](https://www.buymeacoffee.com/Asm0d3us)
 
 # Newsletter
 Subscribe to Genesis's Newsletter to get future articles/updates/blockchain-related news directly in your mailbox.
