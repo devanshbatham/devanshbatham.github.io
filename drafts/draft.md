@@ -90,25 +90,25 @@ As we are just getting started with Solidity, I would suggest you use [Remix IDE
 Even though we are not going to use any of these frameworks as of now, but we need to know what different frameworks are available to build dapps.
 
 
-- [ ] [Truffle - A development environment, testing framework, build pipeline, and other tools.](https://www.trufflesuite.com/)
+- [ ] [Truffle](https://www.trufflesuite.com/) - A development environment, testing framework, build pipeline, and other tools.
 
-- [ ] [Hardhat - Ethereum development environment for professionals](https://hardhat.org/)
+- [ ] [Hardhat](https://hardhat.org/) - Ethereum development environment for professionals.
 
-- [ ] [Brownie - Python-based development environment and testing framework.](https://eth-brownie.readthedocs.io/en/latest/)
+- [ ] [Brownie](https://eth-brownie.readthedocs.io/en/latest/) - Python-based development environment and testing framework.
 
-- [ ] [Embark - A development environment, testing framework, and other tools integrated with Ethereum, IPFS, and Whisper.](https://framework.embarklabs.io/docs/)
+- [ ] [Embark](https://framework.embarklabs.io/docs/) - A development environment, testing framework, and other tools integrated with Ethereum, IPFS, and Whisper.
 
-- [ ] [Web3j - A platform for developing blockchain applications on the JVM](https://www.web3labs.com/web3j-sdk)
+- [ ] [Web3j](https://www.web3labs.com/web3j-sdk) - A platform for developing blockchain applications on the JVM.
 
-- [ ] [OpenZeppelin SDK - The Ultimate Smart Contract Toolkit: A suite of tools to help you develop, compile, upgrade, deploy and interact with smart contracts.](https://openzeppelin.com/sdk/)
+- [ ] [OpenZeppelin SDK](https://openzeppelin.com/sdk/) - The Ultimate Smart Contract Toolkit: A suite of tools to help you develop, compile, upgrade, deploy and interact with smart contracts.
 
-- [ ] [Create Eth App - Create Ethereum-powered apps with one command. Comes with a wide offering of UI frameworks and DeFi templates to choose from.](https://github.com/paulrberg/create-eth-app)
+- [ ] [Create Eth App](https://github.com/paulrberg/create-eth-app) - Create Ethereum-powered apps with one command. Comes with a wide offering of UI frameworks and DeFi templates to choose from.
 
-- [ ] [Scaffold-Eth - Ethers.js + Hardhat + React components and hooks for web3: everything you need to get started building decentralized applications powered by smart contracts.](https://github.com/austintgriffith/scaffold-eth)
+- [ ] [Scaffold-Eth](https://github.com/austintgriffith/scaffold-eth) - Ethers.js + Hardhat + React components and hooks for web3: everything you need to get started building decentralized applications powered by smart contracts.
 
-- [ ] [Alchemy - Ethereum Development Platform.](https://www.alchemy.com/)
+- [ ] [Alchemy](https://www.alchemy.com/) - Ethereum Development Platform.
 
-- [ ] [Dapptools - A suite of Ethereum focused CLI tools following the Unix design philosophy, favoring composability, configurability and extensibility.](https://dapp.tools/)
+- [ ] [Dapptools](https://dapp.tools/) - A suite of Ethereum focused CLI tools following the Unix design philosophy, favoring composability, configurability and extensibility.
 
 
 # 🏷️[Day 7- Day 10] Understanding Solidity
