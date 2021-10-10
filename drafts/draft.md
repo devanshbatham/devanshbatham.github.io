@@ -38,7 +38,7 @@ Before we proceed further, let's talk about some hacks that I use for learning a
 
 # [Day 1 - Day 5] Javascript: The Starting Block
 
-We all have different levels of experience and familiarity with programming languages. Now that you are here, I assume you are already familiar with basic Javascript syntax and the Object-Oriented paradigm. If you are not, I would suggest you learn JavaScript before starting with Solidity. You don't need to learn A-Z of JavaScript. All you need for getting started is a basic understanding of JS syntax and object-oriented programming.
+We all have different levels of experience and familiarity with programming languages. Now that you are here, I assume you are already familiar with basic Javascript syntax and the Object-Oriented paradigm. If you are not, I would suggest you should learn JavaScript before starting with Solidity. You don't need to learn A-Z of JavaScript. All you need for getting started is a basic understanding of JS syntax and object-oriented programming.
 
 ## JavaScript Fundamentals
 - [ ] [An Introduction to JavaScript](https://javascript.info/intro)
@@ -82,19 +82,12 @@ We all have different levels of experience and familiarity with programming lang
 
 
 
-# Day 
-We learned javascript and now we have a fairly decent understanding of object orianted programming as well. What next? Can we start learning solidity now? Yes, we can. 
+# [Day 5 - Day 10] Getting our hands dirty with Solidity
+We learned javascript and now we have a fairly decent understanding of object-oriented programming as well. What next? Can we start learning solidity now? Yes, we can. 
 
-During your staring days, I would suggest you to use [Remix IDE](https://remix.ethereum.org/) for writing and compiling solidity code. As we get more familiar, we will start using a more robust smart contract development framework (such as Truffle, Dapptools, etc).
+As we are just getting started with Solidity, I would suggest you use [Remix IDE](https://remix.ethereum.org/) for writing and compiling solidity code for now. As we gain more experience and familiarity with Solidity, we will start using a more robust Dapp development framework (such as Truffle, Hardhat, Dapptools, etc) because building a full-fledged decentralized application requires different pieces of technologies and software frameworks include many of those needed features.
 
-
-
-
-
-
-
-
-
+Even though we are not going to use these frameworks as of now, but we need to know what different frameworks are available to build dapps.
 
 
 
