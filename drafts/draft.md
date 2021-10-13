@@ -105,7 +105,7 @@ Even though we are not going to use any of these frameworks as of now, but we ne
 # 🏷️[Day 7 - Day 10] Understanding Solidity
 Solidity is an object-oriented/contract-oriented, high-level language for writing smart contracts. It is statically typed, supports inheritance, and is highly influenced by C++, Python and JavaScript.
 
-**Note: Following URLs will get outdated as soon as new versions of Solidity will be released, I will try to update these URLs every month, but if I fail to do so for some reason, it is advised readers should refer to the latest documentation.
+**⚠️ Note:** Following URLs will get outdated as soon as new versions of Solidity will be released, I will try to update these URLs every month, but if I fail to do so for some reason, it is advised readers should refer to the latest documentation.
 
 ## Day 7
 - [ ] [Introduction to Smart Contracts](https://docs.soliditylang.org/en/v0.8.9/introduction-to-smart-contracts.html)
@@ -134,14 +134,68 @@ Solidity is an object-oriented/contract-oriented, high-level language for writin
 
 
 # 🏷️[Day 11] Break
-We are on a learning streak for the past ten consecutive days. I believe it is time you should take a day out for yourself now. You are doing very well so far and you deserve a break. Go out, Treat yourself to your favorite food, give food to some street animals, spread love and have fun ❤️😊. 
+We are on a learning streak for the past ten consecutive days. I believe it is time you should take a day out for yourself. You are doing very well so far and you deserve a break. Go out, Treat yourself to your favorite food, give food to some street animals, spread love and have fun ❤️😊. 
 
 # 🏷️[Day 12 - Day 17] On-hands Practise
 We are familiar with Solidity documentation now. It is time to write actual code, let's practice Solidity by understanding and re-writing the following example contracts:
 
 ## Day 12: 
+- [ ] [Hello World](https://solidity-by-example.org/hello-world/)
+- [ ] [First App](https://solidity-by-example.org/first-app/)
+- [ ] [Primitive Data Types](https://solidity-by-example.org/variables/)
+- [ ] [Variables](https://solidity-by-example.org/variables/)
+- [ ] [Reading and Writing to a State Variable](https://solidity-by-example.org/state-variables/)
+- [ ] [Ether and Wei](https://solidity-by-example.org/ether-units/)
 
-## Day 
+## Day 13:
+- [ ] [Gas and Gas Price](https://solidity-by-example.org/gas/)
+- [ ] [If / Else](https://solidity-by-example.org/if-else/)
+- [ ] [For and While Loop](https://solidity-by-example.org/loop/)
+- [ ] [Mapping](https://solidity-by-example.org/mapping/)
+- [ ] [Array](https://solidity-by-example.org/array/)
+- [ ] [Enum](https://solidity-by-example.org/enum/)
+- [ ] [Structs](https://solidity-by-example.org/structs/)
+
+## Day 14:
+
+
+- [ ] [Data Locations - Storage, Memory and Calldata](https://solidity-by-example.org/data-locations/)
+- [ ] [Function](https://solidity-by-example.org/function/)
+- [ ] [View and Pure Functions](https://solidity-by-example.org/view-and-pure-functions/)
+- [ ] [Error](https://solidity-by-example.org/error/)
+- [ ] [Function Modifier](https://solidity-by-example.org/function-modifier/)
+- [ ] [Events](https://solidity-by-example.org/events/)
+
+## Day 15:
+
+
+- [ ] [Constructor](https://solidity-by-example.org/constructor/)
+- [ ] [Inheritance](https://solidity-by-example.org/inheritance/)
+- [ ] [Shadowing Inherited State Variables](https://solidity-by-example.org/shadowing-inherited-state-variables/)
+- [ ] [Calling Parent Contracts](https://solidity-by-example.org/super/)
+- [ ] [Visibility](https://solidity-by-example.org/visibility/)
+- [ ] [Interface](https://solidity-by-example.org/interface/)
+- [ ] [Payable](https://solidity-by-example.org/payable/)
+
+## Day 16:
+
+
+- [ ] [Sending Ether - Transfer, Send, and Call](https://solidity-by-example.org/sending-ether/)
+- [ ] [Fallback](https://solidity-by-example.org/fallback/)
+- [ ] [Call](https://solidity-by-example.org/call/)
+- [ ] [Delegatecall](https://solidity-by-example.org/delegatecall)
+- [ ] [Function Selector](https://solidity-by-example.org/function-selector/)
+- [ ] [Calling Other Contract](https://solidity-by-example.org/calling-contract/)
+
+## Day 17:
+
+
+- [ ] [Creating Contracts from a Contract](https://solidity-by-example.org/new-contract/)
+- [ ] [Try / Catch](https://solidity-by-example.org/try-catch/)
+- [ ] [Import](https://solidity-by-example.org/import/)
+- [ ] [Library](https://solidity-by-example.org/library/)
+- [ ] [Hashing with Keccak256](https://solidity-by-example.org/hashing/)
+- [ ] [Verifying Signature](https://solidity-by-example.org/signature/)
 
 # 💌 **Want to support my work?**
 If you think my work has added some value to your existing knowledge, then you can [Buy me a Coffee here](https://www.buymeacoffee.com/Asm0d3us) (and who doesn't loves a good cup of coffee?)
