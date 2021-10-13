@@ -102,8 +102,10 @@ Even though we are not going to use any of these frameworks as of now, but we ne
 - [ ] [Dapptools](https://dapp.tools/) - A suite of Ethereum focused CLI tools following the Unix design philosophy, favoring composability, configurability and extensibility.
 
 
-# 🏷️[Day 7- Day 10] Understanding Solidity
+# 🏷️[Day 7 - Day 10] Understanding Solidity
 Solidity is an object-oriented/contract-oriented, high-level language for writing smart contracts. It is statically typed, supports inheritance, and is highly influenced by C++, Python and JavaScript.
+
+**Note: Following URLs will get outdated as soon as new versions of Solidity will be released, I will try to update these URLs every month, but if I fail to do so for some reason, it is advised readers should refer to the latest documentation.
 
 ## Day 7
 - [ ] [Introduction to Smart Contracts](https://docs.soliditylang.org/en/v0.8.9/introduction-to-smart-contracts.html)
@@ -131,6 +133,15 @@ Solidity is an object-oriented/contract-oriented, high-level language for writin
 - [ ] [Contract ABI Specification](https://docs.soliditylang.org/en/v0.8.9/abi-spec.html)
 
 
+# 🏷️[Day 11] Break
+We are on a learning streak for the past ten consecutive days. I believe it is time you should take a day out for yourself now. You are doing very well so far and you deserve a break. Go out, Treat yourself to your favorite food, give food to some street animals, spread love and have fun ❤️😊. 
+
+# 🏷️[Day 12 - Day 17] On-hands Practise
+We are familiar with Solidity documentation now. It is time to write actual code, let's practice Solidity by understanding and re-writing the following example contracts:
+
+## Day 12: 
+
+## Day 
 
 # 💌 **Want to support my work?**
 If you think my work has added some value to your existing knowledge, then you can [Buy me a Coffee here](https://www.buymeacoffee.com/Asm0d3us) (and who doesn't loves a good cup of coffee?)
