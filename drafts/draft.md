@@ -1,7 +1,7 @@
 ---
 layout: post
 toc: false
-title: "Genesis 0x04: How to learn Solidity in 30 Days"
+title: "Genesis 0x04: How to Learn Solidity in 30 Days"
 categories: ["Blockchain-Security"]
 tags: ["blockchain-security"]
 author:
@@ -91,27 +91,46 @@ Even though we are not going to use any of these frameworks as of now, but we ne
 
 
 - [ ] [Truffle](https://www.trufflesuite.com/) - A development environment, testing framework, build pipeline, and other tools.
-
 - [ ] [Hardhat](https://hardhat.org/) - Ethereum development environment for professionals.
-
 - [ ] [Brownie](https://eth-brownie.readthedocs.io/en/latest/) - Python-based development environment and testing framework.
-
 - [ ] [Embark](https://framework.embarklabs.io/docs/) - A development environment, testing framework, and other tools integrated with Ethereum, IPFS, and Whisper.
-
 - [ ] [Web3j](https://www.web3labs.com/web3j-sdk) - A platform for developing blockchain applications on the JVM.
-
 - [ ] [OpenZeppelin SDK](https://openzeppelin.com/sdk/) - The Ultimate Smart Contract Toolkit: A suite of tools to help you develop, compile, upgrade, deploy and interact with smart contracts.
-
 - [ ] [Create Eth App](https://github.com/paulrberg/create-eth-app) - Create Ethereum-powered apps with one command. Comes with a wide offering of UI frameworks and DeFi templates to choose from.
-
 - [ ] [Scaffold-Eth](https://github.com/austintgriffith/scaffold-eth) - Ethers.js + Hardhat + React components and hooks for web3: everything you need to get started building decentralized applications powered by smart contracts.
-
 - [ ] [Alchemy](https://www.alchemy.com/) - Ethereum Development Platform.
-
 - [ ] [Dapptools](https://dapp.tools/) - A suite of Ethereum focused CLI tools following the Unix design philosophy, favoring composability, configurability and extensibility.
 
 
 # 🏷️[Day 7- Day 10] Understanding Solidity
+Solidity is an object-oriented/contract-oriented, high-level language for writing smart contracts. It is statically typed, supports inheritance, and is highly influenced by C++, Python and JavaScript.
+
+## Day 7
+- [ ] [Introduction to Smart Contracts](https://docs.soliditylang.org/en/v0.8.9/introduction-to-smart-contracts.html)
+- [ ] [Installing the Solidity Compiler](https://docs.soliditylang.org/en/v0.8.9/installing-solidity.html)
+- [ ] [Layout of a Solidity Source File](https://docs.soliditylang.org/en/v0.8.9/layout-of-source-files.html)
+- [ ] [Structure of a Contract](https://docs.soliditylang.org/en/v0.8.9/structure-of-a-contract.html)
+- [ ] [Data Types](https://docs.soliditylang.org/en/v0.8.9/types.html)
+- [ ] [Units and Globally Available Variables](https://docs.soliditylang.org/en/v0.8.9/units-and-global-variables.html)
+
+
+## Day 8
+- [ ] [Expressions and Control Structures](https://docs.soliditylang.org/en/v0.8.9/control-structures.html)
+- [ ] [Inline Assembly](https://docs.soliditylang.org/en/v0.8.9/assembly.html)
+- [ ] [Language Grammar](https://docs.soliditylang.org/en/v0.8.9/grammar.html)
+
+
+## Day 9
+- [ ] [Using the Compiler](https://docs.soliditylang.org/en/v0.8.9/using-the-compiler.html)
+- [ ] [Analysing the Compiler Output](https://docs.soliditylang.org/en/v0.8.9/analysing-compilation-output.html)
+- [ ] [Layout of State Variables in Storage](https://docs.soliditylang.org/en/v0.8.9/internals/layout_in_storage.html)
+- [ ] [Layout in Memory](https://docs.soliditylang.org/en/v0.8.9/internals/layout_in_memory.html)
+
+## Day 10
+- [ ] [Contract Metadata](https://docs.soliditylang.org/en/v0.8.9/metadata.html)
+- [ ] [Contract ABI Specification](https://docs.soliditylang.org/en/v0.8.9/abi-spec.html)
+
+
 
 # 💌 **Want to support my work?**
 If you think my work has added some value to your existing knowledge, then you can [Buy me a Coffee here](https://www.buymeacoffee.com/Asm0d3us) (and who doesn't loves a good cup of coffee?)
