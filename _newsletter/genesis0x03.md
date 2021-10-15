@@ -8,27 +8,41 @@ Seeing the potential of blockchain and its applications, people started proposin
 Ethereum was conceived in 2013 by a Canadian-Russian programmer Vitalik Buterin. Its Development started in 2014, and the network went live on 30 July 2015.
 
 
-# Ethereum 2.0
+# 🔥 Ethereum 2.0
 “Change is the only constant element in this universe", same also applies to Ethereum. Ethereum 2.0, also known as Eth2 or Serenity is an upgrade to the Ethereum blockchain. The upgrade aims to enhance the speed, efficiency, and scalability of the Ethereum network so that it can process more transactions and ease bottlenecks.
 
 
 
 # ⏩ Fast track learning
-- Blockchain is a peer-to-peer, distributed computer network, which makes use of cryptography to securely host applications, store data, and transfer instruments of value. 
+**Q- Is Ethereum and Ether the same thing?**
 
-- Anyone can add new transactions to the blockchain, but the previous transactions cannot be tampered with without everyone noticing.
+Ethereum is a decentralized, open-source, programmable blockchain which enables developers to build and publish smart contracts (self-executing/autonomous blocks of code) and distributed applications that can be used without the risks of downtime, fraud, or interference from a third party. While Ether (ETH or Ξ) is the native cryptocurrency of the platform.
 
-- Decentralized blockchains are immutable, which means that the data entered is irreversible.
+**Q- How Ethereum is different from Bitcoin?**
 
-- Bitcoin is based on a global, peer-to-peer value transfer and transaction protocol (i.e., the blockchain).
+Bitcoin was too limited in its functionality. In an interview with Business Insider, Vitalik compared it to a pocket calculator that does one thing well, whereas he said Ethereum is more like a smartphone with multiple applications you can use.
 
-- Bitcoin works on consensus protocol (majority wins).
+**Q- Is Ethereum Better Than Bitcoin?**
 
-- Bitcoin transactions can take as little as 15 minutes and as much as over an hour depending on network congestion.
+Can you compare a mango with a banana? No. In other words, Ethereum has much wider ambitions. It wants to be a decentralized computing platform for creating other decentralized applications, while Bitcoin is digital gold.
 
-- The larger the Bitcoin network grows the more secure it gets.
+**Q- What are smart contracts?**
 
-- Proof of work is more costly than Proof of stake.
+Smart contracts are simply programs(self-executing autonomous blocks of code) stored on a blockchain that run when certain predetermined conditions are met.
+
+**Q- What are some benefits of smart contracts?**
+
+- Speed, efficiency and accuracy
+- Trust and transparency
+- Security
+- No need of intermediaries to handle transactions.
+
+**Q- In which language a smart contract can be written?**
+
+The two most active and maintained languages for smart contract development are:
+- Solidity
+- Vyper
+
 
 
 ## [📰 Read full article here!! ](https://devansh.xyz/blockchain-security/2021/10/01/genesis-0x03.html)
